@@ -5,7 +5,7 @@
 Welcome to the Renert School celebration of learning **challenge** 2020. Through this challenge your mathematical skills will be put to the test. Problems contained in the maze cover topics from kindergarten mathematics to advanced topics in calculus, probability, number theory, and more. How far will you get? 
 
 
-To submit how far you make it through the maze, please fill out this form: <a href="https://tinyurl.com/2020mathchallengeform">https://tinyurl.com/2020mathchallengeform</a>. You do **not** need to submit at every level, only the highest level you achieve. You may submit as many times as you wish. 
+To submit how far you make it through the maze, please fill out this form: <a href="https://tinyurl.com/2020mathchallengeform">https://tinyurl.com/2020mathchallengeform</a>. You do **not** need to submit at every level, only the highest level you achieve. You may submit as many times as you wish. While you are working on this challenge, you will encounter other Google Forms - you do **not** need to press "submit" on those forms (if you do, you may end up navigating away from the page which tells you where to go next), until you get to Level 42.
 
 
 **Let the adventure begin:**
