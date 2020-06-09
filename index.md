@@ -14,7 +14,7 @@ To submit how far you make it through the maze, please fill out this form: <a hr
 
 ### LIVE RESULTS (updated roughly every 5 minutes)
 <p align="center">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzx-iLrTCItJxe1_hEHFQe9a7GKMQW8feWn8mxtaA-QhPxQHcV_hsk9Y24Sni9TSKygaH_c7tJqMT4/pubhtml?gid=453813207&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height = "600"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRzx-iLrTCItJxe1_hEHFQe9a7GKMQW8feWn8mxtaA-QhPxQHcV_hsk9Y24Sni9TSKygaH_c7tJqMT4/pubhtml?gid=453813207&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height = "700"></iframe>
 </p>
 
 
