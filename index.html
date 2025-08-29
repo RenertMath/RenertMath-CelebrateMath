@@ -44,7 +44,25 @@
 <body>
   <div class="container">
     <header>
-      <img class="maintopmarina" src="https://renertmath.github.io/LargeLogo.png" alt="Renert Math Logo" />
+      <img
+        class="maintopmarina"
+        alt="Renert Math Logo"
+        src="https://renertmath.github.io/LargeLogo.png?v=1"
+        width="150" height="150"
+        onerror="
+          const alts=[
+            '/LargeLogo.png',
+            '/assets/LargeLogo.png',
+            '/images/LargeLogo.png',
+            'https://renertmath.github.io/LargeLogo.PNG',
+            'https://renertmath.github.io/largelogo.png',
+            'https://raw.githubusercontent.com/renertmath/renertmath.github.io/main/LargeLogo.png'
+          ];
+          this.onerror=null;
+          this.src=alts.shift();
+          this.onerror=function(){ this.src=alts.shift() || this.src; };
+        "
+      />
       <h1 class="page-title">Renert School Celebration of Learning — Math Challenge 2020</h1>
       <p class="page-subtitle">“Mathematics takes us into the region of absolute necessity, to which not only the actual world, but every possible world, must conform.” — Bertrand Russell</p>
     </header>
