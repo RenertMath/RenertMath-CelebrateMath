@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Renert Math Challenge 2020</title>
+  <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --blue:#0077B6; --gray:#6C757D; --off:#F8F9FA;
+      --bg:var(--off); --surface:#FFFFFF; --surface-alt:#F0F7FB;
+      --text:var(--gray); --indigo:var(--blue); --ring:rgba(0,119,182,.28);
+      --shadow:0 10px 25px rgba(2,6,23,.08); --radius:18px;
+      --border:rgba(243,156,18,.25); --divider:rgba(0,119,182,.28);
+    }
+    body{margin:0;font-family:'STIX Two Text',serif;color:var(--text);line-height:1.6;background:var(--indigo);}
+    .container{max-width:1100px;margin:0 auto;padding:20px;}
+    header{text-align:center;margin:20px 0 40px;}
+    /* keep original size/centering exactly */
+    .maintopmarina{max-width:150px;display:block;margin:0 auto 20px;}
+    .gif-embed {max-width:600px;margin:0 auto;}
+    .page-title{font-size:clamp(28px,4vw,44px);color:#fff;margin:0;}
+    .page-subtitle{font-size:clamp(16px,2.5vw,20px);color:#f8f9fa;margin:10px 0 0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;}
+    section{grid-column:span 12;background:var(--surface);border:1px solid var(--border);
+      border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;margin-bottom:20px;}
+    h2{margin:0.25rem 0 0.75rem;color:var(--indigo);font-weight:700}
+    h3{margin:1rem 0 0.25rem;color:#0b3d63;font-weight:700}
+    .content p,.content li{font-size:16px}
+    .content ul{margin:0.5rem 0 0.75rem 1.1rem}
+    .content a{color:var(--indigo);background:var(--surface-alt);padding:0 .25rem;border-radius:6px;text-decoration:none;border-bottom:1px dashed var(--divider)}
+    .content a:hover{outline:2px solid var(--ring)}
+    .note{background:var(--surface-alt);border-left:4px solid var(--indigo);padding:10px 12px;border-radius:12px;margin:.75rem 0;}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin:.75rem 0}
+    .btn{display:inline-block;padding:10px 14px;border-radius:12px;border:1px solid var(--divider);box-shadow:var(--shadow);text-decoration:none}
+    .btn-primary{background:var(--indigo);color:#fff;border-color:transparent}
+    .media-embed{position:relative;padding-top:41.6%; /* 21:9 approx */ border-radius:12px;overflow:hidden;background:var(--surface-alt);border:1px solid var(--border)}
+    .media-embed > *{position:absolute;inset:0;width:100%;height:100%}
+    .center{display:block;margin:0 auto;text-align:center}
+    blockquote{margin:0;padding:12px 16px;border-left:4px solid var(--indigo);background:var(--surface-alt);border-radius:12px}
+    blockquote footer{margin-top:6px;color:#5b6770;font-size:14px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img class="maintopmarina" src="https://renertmath.github.io/LargeLogo.png" alt="Renert Math Logo" />
+      <h1 class="page-title">Renert School Celebration of Learning — Math Challenge 2020</h1>
+      <p class="page-subtitle">“Mathematics takes us into the region of absolute necessity, to which not only the actual world, but every possible world, must conform.” — Bertrand Russell</p>
+    </header>
+
+    <main class="grid" aria-label="Main content">
+      <section>
+        <div class="content">
+          <div class="media-embed" aria-label="Star Wars GIF embed">
+            <!-- Tenor embed keeps its own script; wrapper makes it responsive -->
+            <div class="tenor-gif-embed" data-postid="13380207" data-share-method="host" data-width="100%" data-aspect-ratio="2.4057971014492754">
+              <a href="https://tenor.com/view/star-wars-anakin-this-is-where-the-fun-begins-gif-13380207">Star Wars Anakin GIF</a> from
+              <a href="https://tenor.com/search/starwars-gifs">Starwars GIFs</a>
+            </div>
+            <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          </div>
+
+          <h2>Overview</h2>
+          <p>Welcome to the Renert School celebration of learning <strong>challenge</strong> 2020. Through this challenge your mathematical skills will be put to the test. Problems contained in the maze cover topics from kindergarten mathematics to advanced topics in calculus, probability, number theory, and more. How far will you get?</p>
+
+          <div class="note">
+            While you are working on this challenge, you will encounter other Google Forms — you do <strong>not</strong> need to press “submit” on those forms (doing so may navigate away from the page that tells you where to go next), until you get to <strong>Level 42</strong>.
+          </div>
+
+          <div class="actions">
+            <a class="btn btn-primary" href="level1.md">Start: The First LEVEL</a>
+            <a class="btn" href="https://tinyurl.com/2020mathchallengeform" target="_blank" rel="noopener noreferrer">Submit Your Progress</a>
+          </div>
+
+          <h3>Submission details</h3>
+          <p>To submit how far you make it through the maze, please fill out this form:
+            <a href="https://tinyurl.com/2020mathchallengeform" target="_blank" rel="noopener noreferrer">https://tinyurl.com/2020mathchallengeform</a>.
+            You do <strong>not</strong> need to submit at every level, only the highest level you achieve. You may submit as many times as you wish.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="content">
+          <h2 class="center">LIVE RESULTS (updated roughly every 5 minutes)</h2>
+          <div class="media-embed" aria-label="Live results">
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTztS0UkpkPHIBMy6QRcXxVONzcUPEv6oS6pc5_56Mp2PxT5X3ru-HVppEOPvzdrrOLFViW3CKAnLLi/pubhtml?gid=904580779&single=true&widget=true&headers=false" loading="lazy"></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
